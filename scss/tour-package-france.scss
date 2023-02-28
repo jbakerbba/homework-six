@@ -1,0 +1,103 @@
+.tour-package-hero-france {
+    max-width: 981px;
+    height: 413px;
+    margin-top: -50px;
+    margin-bottom: 40px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/tour/tour-05.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+
+
+    h2 {
+        margin-left: 30px;
+        margin-top: 30px;
+        font-size: 80px;
+        font-family: Proxima;
+        color: white;
+    }
+
+    .quote {
+       position: absolute;
+       right: 0 ;
+       bottom: 0;
+       font-size: 30px;
+       color: white;
+       font-family: Proxima;
+       margin: 5px;
+    }
+}
+
+.tour-package-image-holder {
+    min-height: 347px;
+    max-width: 981px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+    .tour-package-image {
+        height: 347px;
+        width: 298px;
+
+    
+    }
+    #france-1 {
+        background-image: url(../images/tour/tour-france/france-tour-01.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #france-2 {
+        background-image: url(../images/tour/tour-france/france-tour-02.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #france-3 {
+        background-image: url(../images/tour/tour-france/france-tour-03.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .tour-package-image-holder {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        #france-1 {
+            margin-bottom: 30px;
+        }
+        #france-2 {
+            margin-bottom: 30px;
+        }
+        #france-3 {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.book-button {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    a {
+        text-decoration: none;
+        color: white;
+    
+        span {
+            margin-top: 30px;
+            background-color: $site-blue;
+            padding: 10px 25px; 
+            font-size: 15px;
+            border-radius: 25px;
+            font-family: Gillsans; 
+           
+        }
+    }
+}

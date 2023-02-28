@@ -1,0 +1,34 @@
+@import "variables.scss";
+@import "structure.scss";
+@import "nav.scss";
+@import "home.scss";
+@import "footer.scss";
+@import "tour-banner.scss";
+@import "about.scss";
+@import "tours.scss";
+@import "tour-package-isreal.scss";
+@import "tour-package-usa.scss";
+@import "tour-package-austrailia.scss";
+@import "tour-package-new-zealand.scss";
+@import "tour-package-france.scss";
+@import "tour-package-egypt.scss";
+@import "tour-package-japan.scss";
+@import "tour-package-canada.scss";
+@import "tour-package-uae.scss";
+//
+@font-face {
+    font-family:Proxima ;
+    src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+@font-face {
+    font-family: Gillsans;
+    src: url(../fonts/Gill\ Sans.otf);
+}
+@font-face {
+    font-family: GillsansIt ;
+    src: url(../fonts/Gill\ Sans\ Italic.otf);
+}
+@font-face {
+    font-family: ProximaThin;
+    src: url(../fonts/Proxima-Nova-Thin.otf);
+}

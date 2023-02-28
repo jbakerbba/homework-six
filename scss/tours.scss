@@ -1,0 +1,154 @@
+.tours-hero {
+    max-width: 981px;
+    height: 200px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../images/tour/tours-header.jpg);
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        font-size: 60px;
+        font-family: Proxima;
+        color: white;
+    }
+
+}
+
+@media only screen and (max-width: 800px){
+    .tours-hero {
+        margin: 20px;
+    }
+}
+
+.trip-card-holder-tours {
+    max-width: 818px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 55px;
+
+    #trip-card-tours {
+        height: 304px;
+        width: 236px;
+        background-color: cadetblue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 40px;
+        color: white;
+
+        h1 {
+            font-size: 60px;
+            font-family: Proxima;
+        }
+
+        p {
+            font-size: 30px;
+            font-family: Proxima;
+        }
+
+        
+        a {
+            text-decoration: none;
+            color: white;
+            margin-top: 30px;
+            span {
+                margin-top: 30px;
+                background-color: $site-blue;
+                padding: 10px 25px; 
+                font-size: 15px;
+                border-radius: 25px;
+                font-family: Gillsans; 
+            }
+        }
+    }
+
+
+
+    
+}
+
+@media only screen and (max-width: 800px){
+    .trip-card-holder-tours {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0px;
+        #trip-card-tours {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+    .israel {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(../images/tour/tour-01.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .usa {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(../images/tour/tour-02.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .austrailia {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(../images/tour/tour-03.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .new-zealand {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(../images/tour/tour-04.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .france {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(../images/tour/tour-05.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .egypt {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(../images/tour/tour-06.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .japan {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(../images/tour/tour-07.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .canada {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(../images/tour/tour-08.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .uae {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(../images/tour/tour-09.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+.tours-spacing {
+    padding: 45px;
+}

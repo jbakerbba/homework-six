@@ -1,0 +1,334 @@
+.home {
+    .hero {
+        max-width: 100%; //can also be set to $site-width
+        height: $hero-height;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/hero.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+
+        .callout {
+            width: 416px;
+            min-height: 100px;
+            margin: 0 auto;
+            margin-top: 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            h1 {
+                margin-bottom: 26px;
+                font-size: 60px;
+                font-family: Proxima;
+            }
+
+            p {
+                margin-bottom: 50px;
+                font-size: 20px;
+                font-family: GillsansIt;
+            }
+
+            span {
+                background-color: $site-blue;
+                padding: 10px 25px; 
+                font-size: 15px;
+                font-family: Gillsans; 
+            }
+        }
+        }
+}
+
+
+nav {
+    min-height: 92px;
+    max-width: 980px;
+    margin: 0 auto;
+    border-bottom: solid 2px white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+    .logo {
+        width: 92px;
+        height: 42px;
+        background-image: url(../images/logo/logo-white.svg);
+        background-repeat: no-repeat;
+    }
+
+    .links {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        a {
+            text-decoration: none;
+            color: white;
+            float: right;
+            font-size: 15px;
+            font-family: Gillsans;
+        }
+
+        .vertical-line {
+            width: 1px;
+            height: 20px;
+            background-color: $site-blue;
+        }
+    }
+    
+    
+    
+}
+@media only screen and (max-width: 800px) {
+    nav {
+      flex-direction: column;
+      padding-top: 20px;
+    }
+    .links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+  }
+
+
+
+.trip-card-holder {
+    max-width: 818px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: -43px;
+
+    #trip-card {
+        height: 304px;
+        width: 236px;
+        background-color: cadetblue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 40px;
+        color: white;
+
+        h1 {
+            font-size: 60px;
+            font-family: Proxima;
+        }
+
+        p {
+            font-size: 30px;
+            font-family: Proxima;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            margin-top: 30px;
+            span {
+                margin-top: 30px;
+                background-color: $site-blue;
+                padding: 10px 25px; 
+                font-size: 15px;
+                border-radius: 25px;
+                font-family: Gillsans; 
+            }
+        }
+    }
+
+
+
+    
+}
+
+@media only screen and (max-width: 800px){
+    .trip-card-holder {
+        flex-direction: column;
+        align-items: center;
+        #trip-card {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+    .israel {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(../images/tour/tour-01.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .usa {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(../images/tour/tour-02.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .austrailia {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(../images/tour/tour-03.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+
+.form-area {
+    max-width: 818px;
+    min-height: $tour-banner-height;
+    margin: 50px auto 0 auto;
+    font-family: Gillsans;
+    
+    h1 {
+        font-family: Proxima;
+        font-size: 60px;
+        margin: 0 auto;
+    }
+
+    .form {
+
+        input {
+            height: 58px;
+            margin-left: 5px;
+            border: solid $site-blue 2px;
+            margin-bottom: 20px;
+        }
+        .two-input{
+            min-height: 58px;
+            justify-content: space-between;
+
+            .left {
+                width: 344px;
+                margin-bottom: 20px;
+            }
+            .right {
+                width: 453px;
+                
+            }
+        }
+        .single-line-input-holder {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            margin-bottom: 20px;
+
+
+            .large-input {
+                width: 698px;
+                position: relative;
+            }
+
+            .icon {
+                font-size: 24px;
+                position: absolute;
+                left: 20%
+
+            }
+        }
+
+        .three-input {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            
+            input {
+                height: 58px;
+                max-width: 103px;
+            }
+            
+        }
+
+        .message {
+            margin-bottom: 37px;
+            input {
+                width: 100%;
+                height: 192px;
+            }
+        }
+        .submit-button {
+            width: 100%;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $site-blue;
+            border-radius: 33px;
+            margin-bottom: 100px;
+
+            a {
+                text-decoration: none;
+                font-size: 15px;
+                color: white;
+            }
+        }
+        
+    }
+
+
+}
+
+@media only screen and (max-width: 800px){
+    .form-area {
+        align-items: center;
+        width: 400px;
+        .two-input {
+            input {
+                width: 300px;
+            }
+            .right {
+                width: 300px;
+            }
+
+        }
+    }
+}
+
+footer {
+    .footer-holder {
+        height: 100px;
+        background-color: $site-blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        font-family: Gillsans;
+
+            .footer-logo {
+                width: 92px;
+                height: 42px;
+                background-image: url(../images/logo/logo-white.svg);
+                background-repeat: no-repeat;
+        }
+        .copyright {
+            font-size: 12px;
+            color: white;
+        }
+        .socials-holder {
+            height: 22px;
+            width: 100px;
+            display: flex;
+            justify-content: space-between;
+
+            .socials {
+                height: 100%;
+                width: 22px;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+}
+}
+
+

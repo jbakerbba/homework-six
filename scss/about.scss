@@ -1,0 +1,133 @@
+.about-wrapper {
+    max-width:980px;
+    margin: 0 auto;
+}
+
+.about-section {
+    padding-top: 100px;
+    
+    h1 {
+        font-size: 60px;
+        font-family:Proxima;
+        width: 150px;
+        border-bottom: 2px solid black;
+    }
+    p {
+        font-size: 16px;
+        font-family: Gillsans;
+        padding-top: 30px;
+        margin-bottom: 100px;
+    }
+}
+
+#top {
+    h1 {
+        font-size: 40px;
+        font-family: Proxima;
+        border-bottom: 2px solid black;
+        width: 230px;
+    }
+    .client-container { 
+        max-width: 676px;
+        height: 150px;
+        display: flex;
+        position: relative;
+        margin-bottom: 37px;
+
+        .client-img {
+            width: 260px;
+            height: 150px;
+            background-color: brown;
+            background-image: url(../images/about-client-01.jpg);
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .client-text {
+            max-width: 385px;
+            height: 102px;
+            margin-left: 21px;
+            font-family: GillsansIt;
+            font-size: 16px;
+        }
+
+        .client-name {
+            height: 24px;
+            display: flex;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            font-family: Proxima;
+            font-size: 20px;
+            color: $site-blue;
+        }
+    }
+
+}
+
+#bottom {
+    .client-container {
+        max-width: 676px;
+        height: 150px;
+        display: flex;
+        position: relative;
+        margin-bottom: 180px;
+
+        .client-img {
+            width: 260px;
+            height: 150px;
+            background-image: url(../images/about-client-02.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .client-text {
+            max-width: 385px;
+            height: 102px;
+            margin-left: 21px;
+            font-family: GillsansIt;
+            font-size: 16px;
+        }
+
+        .client-name {
+            max-height: 24px;
+            display: flex;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            font-family: Proxima;
+            font-size: 20px;
+            color: $site-blue;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 800px){
+    .about-wrapper{
+        margin: 50px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .nav-black {
+      flex-direction: column;
+      padding-top: 20px;
+
+      .links-black {
+        min-width: 400px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+      }
+    }
+}
