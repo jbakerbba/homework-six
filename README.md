@@ -25,3 +25,4 @@ For this homework assignment, you will be making the tour page and the individua
 - You can align the elements as you wish but they must look good and not touch the sides of the browser.
 
 ## Homework 6 URL
+https://in-info-web4.informatics.iupui.edu/~bakejona/homework-six/tours.html
